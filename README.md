@@ -54,12 +54,12 @@ Suponha que você tenha a seguinte função objetivo e restrições:
 Problema: Maximizar o lucro da produção de móveis. 
 Tipo de otimização: Maximizar 
 
-   Número de variáveis: 4 (Escrivaninha, Mesa, Armário, Prateleira) 
-   Função objetivo: 
-   Coeficientes: x1 = 80 (Mesa), x2 = 70 (Escrivaninha), x3 = 100 (Armário), x4 = 16 (Prateleira) 
-   Número de restrições: 3 
-   Restrição 1: x1 + x2 + x3 + 4x4 ≤ 250 (Tábua) 
-   Restrição 2: x2 + x3 + 2x4 ≤ 600 (Prancha) 
-   Restrição 3: 3x1 + 2x2 + 4x3 ≤ 500 (Painel) 
+   •Número de variáveis: 4 (Escrivaninha, Mesa, Armário, Prateleira) 
+   •Função objetivo: 
+   •Coeficientes: x1 = 80 (Mesa), x2 = 70 (Escrivaninha), x3 = 100 (Armário), x4 = 16 (Prateleira) 
+   •Número de restrições: 3 
+   •Restrição 1: x1 + x2 + x3 + 4x4 ≤ 250 (Tábua) 
+   •Restrição 2: x2 + x3 + 2x4 ≤ 600 (Prancha) 
+   •Restrição 3: 3x1 + 2x2 + 4x3 ≤ 500 (Painel) 
 
  
