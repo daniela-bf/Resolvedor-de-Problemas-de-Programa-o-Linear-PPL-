@@ -47,13 +47,6 @@ Passos do Processo
   Selecione se deseja maximizar ou minimizar a função objetivo. 
 
 
-
-  Observações:
-  1. O Streamlit é uma biblioteca em Python projetada para simplificar a criação de aplicativos de visualização e interação de dados. Ele permite que você transforme scripts de Python em aplicativos web interativos de maneira rápida e intuitiva, sem necessidade de conhecimento avançado de front-end.
-  2. O PuLP é uma biblioteca Python usada para resolver problemas de otimização linear e inteira, implementando o método Simplex e outros algoritmos. Ele serve como um front-end para otimizadores como CBC, Gurobi, CPLEX, entre outros.
-
-
-
 Exemplo 
 Suponha que você tenha a seguinte função objetivo e restrições: 
 Problema: Maximizar o lucro da produção de móveis. 
@@ -66,5 +59,11 @@ Tipo de otimização: Maximizar
    Restrição 1: x1 + x2 + x3 + 4x4 ≤ 250 (Tábua) 
    Restrição 2: x2 + x3 + 2x4 ≤ 600 (Prancha) 
    Restrição 3: 3x1 + 2x2 + 4x3 ≤ 500 (Painel) 
+
+
+
+  Observações:
+  1. O Streamlit é uma biblioteca em Python projetada para simplificar a criação de aplicativos de visualização e interação de dados. Ele permite que você transforme scripts de Python em aplicativos web interativos de maneira rápida e intuitiva, sem necessidade de conhecimento avançado de front-end.
+  2. O PuLP é uma biblioteca Python usada para resolver problemas de otimização linear e inteira, implementando o método Simplex e outros algoritmos. Ele serve como um front-end para otimizadores como CBC, Gurobi, CPLEX, entre outros.
 
  
