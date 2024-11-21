@@ -47,8 +47,6 @@ def resolver_ppl():
        st.subheader("Análise de Sensibilidade")
        for name, c in problema.constraints.items():
            st.write(f"Preço sombra de {name}: {c.pi}")
-           st.write(f"Limite inferior de {name}: {c.slack}")
-           st.write(f"Limite superior de {name}: {c.slack + c.constant}")
    else:
        st.write("Não foi possível encontrar uma solução ótima.")
 if __name__ == "__main__":
